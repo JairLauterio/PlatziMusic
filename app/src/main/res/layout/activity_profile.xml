@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:layout_margin="12dp"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/vector_person"
+        android:hint="@string/hint_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_margin="12dp"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/baseline_app_blocking_24"
+        android:hint="@string/hint_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/button_login"
+        android:textColor="@color/cardview_light_background"
+
+
+
+</LinearLayout>
+    <!--
+<TextView
+android:id="@+id/tvMainTitle"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+tools:background="@color/red"
+tools:text="Hola Platzi, curso de interface" />
+android:text="Hola Platzi, curso de interface"
+android:background="@color/design_default_color_secondary"
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="120dp"
+tools:textSize="20sp"
+tools:background="@color/red"
+tools:text="Hola Platzi, curso de interface" />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+tools:background="@color/red"
+tools:text="Hola Platzi, curso de interface" />
+
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@color/design_default_color_secondary_variant"
+android:hint="Escribe tu nombre"
+android:inputType="number" />-->
